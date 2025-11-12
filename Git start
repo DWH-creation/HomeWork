@@ -188,3 +188,6 @@ git reset --hard <commit_id>
 
 #удалить локальный репозиторий
 rm -rf .git
+
+#генерация открытого ключа
+ssh-keygen -t rsa -b 4096 -C "julia.nikishova84@yandex.ru"
