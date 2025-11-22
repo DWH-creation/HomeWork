@@ -6,10 +6,10 @@ git -h
 git —help
 
 # установка глобального пользователя Git (для всех проектов)
-git config --global user.name "Julia888-M"
+git config --global user.name "..."
 
 # установка глобального email пользователя Git (для всех проектов)
-git config --global user.email “julia.nikishova84@yandex.ru“
+git config --global user.email “...“
 
 # включение цветного вывода информации (в ряде случаев включено по умолчанию)
 git config --global color.ui true
@@ -26,8 +26,8 @@ git config user.email
 history
 
 # установка локальной настройки Git (для конкретного репозитория)
-git config user.name "Julia888-M"
-git config user.email “julia.nikishova84@yandex.ru"
+git config user.name "..."
+git config user.email “..."
 
 //создание репозитория
 
@@ -190,4 +190,4 @@ git reset --hard <commit_id>
 rm -rf .git
 
 #генерация открытого ключа
-ssh-keygen -t rsa -b 4096 -C "julia.nikishova84@yandex.ru"
+ssh-keygen -t rsa -b 4096 -C "..."
